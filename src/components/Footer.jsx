@@ -17,7 +17,7 @@ const Footer = ({t}) => {
             </div>
             <div className="footer-line"></div>
             <div className="footer-two">
-                <p> midas@gmail.com </p>
+                <p> midascomany@gmail.com </p>
                 <p>+694 772 788 0505</p>
                 <p>{t("Footer-addres")} </p>
             </div>

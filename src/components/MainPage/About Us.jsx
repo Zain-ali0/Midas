@@ -1,52 +1,36 @@
 import React, { useState } from 'react'
 import "../../styles/about.scss";
-import { AboutImg, Person1, Person2, Person3, Person4, Slider1, Slider2, Slider3 } from "../../img";
+import { AboutImg, Person1, Person2, Person3, Person4,Person5, Slider1, Slider2, Slider3 } from "../../img";
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 
 const Aboutus = ({ t }) => {
   const ImgesTeam = [
-    {
-      src: Person1,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
+    
+      {
+        img: Person1,
+        title: "Team Consultant",
+        name: "Simon Árpád"
     },
     {
-      src: Person2,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
+        img: Person2,
+        title: "Financial Analyst",
+        name: "Mezei Ágnes"
     },
     {
-      src: Person3,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
+        img: Person3,
+        title: " Web Developer IV",
+        name: "Farkas Ágnes"
     },
     {
-      src: Person4,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
+        img: Person4,
+        title: "Team Consultant",
+        name: "Simon Árpád"
     },
     {
-      src: Person1,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
-    },
-    {
-      src: Person2,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
-    },
-    {
-      src: Person4,
-      alt: "Img",
-      name: "Ali mohmaed",
-      title: "front end developer"
+        img: Person5,
+        title: "Financial Analyst",
+        name: "Mezei Ágnes"
     },
   ];
 
@@ -90,7 +74,7 @@ const Aboutus = ({ t }) => {
         <div className="team-img" >
           {ImgesTeam.map(img => (
             <div className="imges" >
-              <img src={img.src} alt={img.alt} />
+              <img src={img.img} alt={img.alt} />
               <p className="name">{img.name}</p>
               <p className='title'>{img.title}</p>
             </div>
