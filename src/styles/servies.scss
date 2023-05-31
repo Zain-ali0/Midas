@@ -1,0 +1,109 @@
+.serivrs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px 0 0 0;
+
+    .title-servies {
+        color: var(--Yellow-color);
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .servies-boxes {
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        @media screen and (max-width:1390px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media screen and (max-width:800px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box {
+            width: 441px;
+            margin: 20px;
+            padding: 10px;
+            color: var(--White-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            cursor: pointer;
+
+            @media screen and (max-width:930px) {
+                width: 100%;
+                padding: 2px;
+            }
+
+
+            .box-title {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-size: 26px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+                width: 100%;
+            }
+
+            .box-content {
+                font-size: 20px;
+            }
+        }
+
+        .box1 {
+            border: 2px solid;
+            border-image: linear-gradient(90deg, var(--Yellow-color), var(--Black-color)) 1;
+
+            svg {
+                color: var(--Yellow-color);
+            }
+        }
+
+        .box2 {
+            border: 2px solid;
+            border-image: linear-gradient(90deg, var(--Orange-color), var(--Black-color)) 1;
+
+            svg {
+                color: var(--Orange-color);
+            }
+        }
+
+        .box3 {
+            border: 2px solid;
+            border-image: linear-gradient(90deg, var(--Purple-color), var(--Black-color)) 1;
+
+            svg {
+                color: var(--Purple-color);
+            }
+        }
+
+        .box4 {
+            border: 2px solid;
+            border-image: linear-gradient(90deg, var(--Yellow-color), var(--Black-color)) 1;
+
+
+            svg {
+                color: var(--Yellow-color);
+            }
+        }
+
+        .box5 {
+            border: 2px solid;
+            border-image: linear-gradient(90deg, var(--Orange-color), var(--Black-color)) 1;
+
+
+            svg {
+                color: var(--Orange-color);
+            }
+        }
+
+    }
+}

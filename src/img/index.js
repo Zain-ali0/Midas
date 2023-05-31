@@ -1,0 +1,34 @@
+export { default as  Logo } from "./logo.png";
+export { default as HomeImg1 } from "./home-img-1.jpg";
+export { default as HomeImg2 } from "./home-img-2.jpg";
+export { default as AboutImg } from "./aboutImg.png";
+export { default as Person1 } from "./person1.jpg";
+export { default as Person2 } from "./person2.jpg";
+export { default as Person3 } from "./person3.jpg";
+export { default as Person4 } from "./person4.jpg";
+export { default as Person5 }  from "./person5.avif";
+export { default as Person6 } from "./person6.jpg";
+export { default as Person7 } from "./person7.jpg";
+export { default as Person8 } from "./person8.jpg";
+export { default as Person9 } from "./person9.avif";
+export { default as Slider1 } from "./Slider1.jpg";
+export { default as Slider2 } from "./Slider2.jpg";
+export { default as Slider3 } from "./Slider3.jpg";
+export { default as ContactImg } from "./contactImg.jpg";
+export { default as SelectImg1 } from "./selectimg1.avif";
+export { default as SelectImg2 } from "./selectimg2.jpg";
+export { default as SelectImg3 } from "./selectimg3.jpg";
+export { default as SoftImg1 } from "./soft1.jpg";
+export { default as SoftImg2 } from "./soft2.jpg";
+export { default as SoftImg3 } from "./soft3.jpg";
+export { default as PosImg1 } from "./posImg1.jpg";
+export { default as PosImg2 } from "./posImg2.jpg";
+export { default as PosImg3 } from "./posImg3.jpg";
+
+export { default as AppImg1 } from "./appImg1.jpg";
+export { default as AppImg2 } from "./appImg2.png";
+export { default as AppImg3 } from "./appImg3.jpg";
+
+export { default as ClinicImg1 } from "./clinicImg1.png";
+export { default as ClinicImg2 } from "./clinicImg2.png";
+export { default as ClinicImg3 } from "./clinicImg3.jpg";

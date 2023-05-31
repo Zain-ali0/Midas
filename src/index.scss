@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Shantell+Sans:wght@700&family=Tajawal:wght@200;300;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    font-family: 'Tajawal';
+}
+
+:root{
+    --Black-color:#18191B;
+    --White-color:#FFFFFF;
+    --Yellow-color:#FCA311;
+    --Purple-color:#6A11FC;
+    --Orange-color:#E6674C;
+}
+
+.app-container{
+    background-color: var(--Black-color);
+    overflow-x: hidden;
+    position: relative;
+}

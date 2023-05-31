@@ -1,0 +1,296 @@
+.about-container {
+    .line-about {
+        padding: 103px 0 158px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        direction: rtl;
+
+        .line {
+            background: var(--Yellow-color);
+            height: 19px;
+            width: 80%;
+        }
+    }
+
+
+    .about-content-container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 0 52px 10px 52px;
+
+        @media screen and (max-width:812px) {
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+
+            .about-title-one {
+                font-size: 40px;
+                color: var(--Yellow-color);
+            }
+
+            p {
+                width: 100%;
+                text-align: center;
+                color: var(--White-color);
+                font-size: 20px;
+            }
+        }
+
+        .about-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 650px;
+                height: 650px;
+            }
+        }
+    }
+
+    .about-team {
+        display: flex;
+        align-items: flex-end;
+        justify-content:center;
+        flex-direction: column;
+
+        h3 {
+            padding: 22px 0 22px 0;
+            font-weight: 700;
+            font-size: 40px;
+            color: var(--Yellow-color);
+            width: 100%;
+            text-align: center;
+        }
+
+        .team-img {
+            display: flex;
+            width: 100%;
+            overflow-x: hidden;
+
+            .imges {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                transition: .5s ease;
+
+                img {
+                    width: 374px;
+                    height: 378px;
+                    margin: 0 28px 0 20px;
+                }
+
+                .name,
+                .title {
+                    width: 90%;
+                    color: var(--White-color);
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+
+                .name {
+                    font-weight: 600;
+                }
+
+                .title {
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .more {
+            width: 100%;
+            padding: 30px 20px 0 0;
+            text-align: end;
+            color: var(--White-color);
+            font-size: 20px;
+            font-weight: 400;
+            cursor: pointer;
+            width: 10%;
+        }
+
+    }
+
+    //slider img start
+    .about-slider {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 30px;
+
+        .slider-carousel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            direction: rtl;
+
+            .slides {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 895px;
+                height: 597px;
+                z-index: 200;
+
+                @media screen and (max-width:980px) {
+                    width: 695px;
+                    height: 597px;
+                }
+
+                @media screen and (max-width:711px) {
+                    width: 495px;
+                    height: 497px;
+                }
+
+                @media screen and (max-width:600px) {
+                    width: 330px;
+                    height: 330px;
+                }
+
+                .slide {
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .slide-hidden {
+                    display: none;
+                }
+            }
+
+            .points {
+                display: flex;
+                padding: 10px;
+                align-items: center;
+                justify-content: center;
+
+                .point {
+                    background: var(--Yellow-color);
+                    opacity: .6;
+                    width: .5rem;
+                    height: .5rem;
+                    margin: 2px;
+                    border-radius: 50%;
+                    cursor: pointer;
+
+                }
+
+                .point-active {
+                    background: var(--White-color);
+                }
+            }
+        }
+
+        .slider-left-line {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .left-line {
+                height: 30px;
+                width: 100%;
+                background: var(--Yellow-color);
+            }
+        }
+
+        .slider-right-line {
+            height: 100%;
+            position: relative;
+
+            .right-line {
+                width: 100%;
+                height: 30px;
+                position: absolute;
+                bottom: 120px;
+                background: var(--Yellow-color);
+            }
+
+        }
+    }
+
+    //slider img end
+
+    //goal start
+    .about-goal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        flex-direction: column;
+
+        h3 {
+            font-size: 40px;
+            font-weight: 700;
+            color: var(--Yellow-color);
+        }
+
+        p {
+            color: var(--White-color);
+            width: 60%;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    //goal end
+}
+
+
+//responsively
+@media screen and (max-width:1190px) {
+    .about-container {
+        margin-top: 90px;
+
+        .line-about {
+            display: none;
+        }
+
+        .about-content-container {
+            display: flex;
+            flex-direction: column;
+
+
+            .about-content {
+                padding: 0 0 20px 0;
+                width: 100%;
+
+                p {
+                    width: 100%;
+                }
+            }
+
+            .about-img {
+                width: 430px;
+                height: 430px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .about-goal {
+            p {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,184 @@
+.navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 4px 49.74px 12px 44px;
+    border-bottom: 5px solid var(--Yellow-color);
+    width: 100%;
+    height: 100%;
+
+    // logo start
+    .navbar-logo {
+        width: 99px;
+        height: 91px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    //logo end
+
+    //menu toggle start
+    .navbar-menu-toggle {
+        display: none;
+
+        @media screen and (max-width:1000px) {
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 10px;
+
+
+            svg {
+                color: var(--Yellow-color);
+                font-size: 30px;
+                cursor: pointer;
+            }
+
+            .link-toggle {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+
+
+                background: var(--Black-color);
+                color: var(--White-color);
+                width: 100%;
+                height: 100vh;
+                z-index: 100000;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                li {
+                    margin: 30px;
+
+                    a {
+                        color: var(--White-color);
+                        font-size: 19px;
+                        font-weight: 700;
+                    }
+
+                    .active {
+                        background: var(--Yellow-color);
+                        padding: 10px;
+                        border-radius: 8px;
+                    }
+                }
+
+                button {
+                    border-bottom: 2px solid var(--Yellow-color);
+                    padding: 10px;
+                    color: var(--White-color);
+                    font-size: 19px;
+                    cursor: pointer;
+                }
+
+                svg {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    margin: 20px;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+
+    //menu toggle end
+
+    //nav bar start
+    .navbar-navigation {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        @media screen and (max-width:1000px) {
+            display: none;
+        }
+
+        a {
+            color: var(--White-color);
+            font-weight: 700;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .active {
+            background: var(--Yellow-color);
+        }
+
+
+        .custom-select {
+            position: relative;
+            width: 100px;
+
+            .select-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                background-color: var(--Black-color);
+                position: relative;
+                color: var(--White-color);
+            }
+
+            .select-header.open {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            .select-header.selected {
+                background-color: var(--Yellow-color);
+            }
+
+            .arrow {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 5px 0 5px;
+                border-color: #ffff transparent transparent transparent;
+                transition: transform 0.3s;
+            }
+
+            .arrow.open {
+                transform: rotate(180deg);
+            }
+
+            .select-options {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                width: 100%;
+                top: 38px;
+                background-color:var(--Yellow-color);
+                border-top: none;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                z-index: 10;
+            }
+
+            .select-option {
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    //navbar end
+}

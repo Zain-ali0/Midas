@@ -1,0 +1,102 @@
+{
+    "Home": "Home",
+    "About Us": "About Us",
+    "Serives": "Servies",
+    "Courses": "Courses",
+    "Contact": "Contact",
+    "title-home1": "marketing agency in Iraq",
+    "title-home1-span": "Creative",
+    "description-home1": "To provide all the services that the customer needs in the field of technology, media and marketing.",
+    "button1-home": "Our services",
+    "button2-home": "Contact us",
+    "title-home2": "Market your work in the right place",
+    "description-home2": " We provide distinguished and comprehensive services to companies wishing to improve and develop their work in the field of marketing",
+    "title-about-1": "Who are we?",
+    "about-desription": "A company managed by several young people and provides diverse and comprehensive services to companies that want to improve and develop their work in the field of marketing, content industry, software and any service needed by the client ",
+    "title-about-2": "Meet our creative team members",
+    "carousel": "More",
+    "goal-title": "Our goal",
+    "goal-description": "We strive to achieve joint success with our customers by providing them with the best solutions, services and continuous technical support. We also aim to achieve leadership in our field and provide innovative and advanced solutions that meet the needs of our customers and are characterized by quality and reliability.",
+
+    "servies-title":"Our services",
+    "box-title-1": "Content creation",
+    "box-1": "we are keen to provide high-quality and diverse content to companies wishing to enrich their websites and social accounts and improve the level of interaction with the audience.",
+    "box-title-2": "Marketing",
+    "box-2": "we provide distinguished and innovative services that include content marketing, content management, graphic design and other services that help companies increase ",
+    "box-title-3": "Software",
+    "box-3": "we are keen to develop and create corporate programs, improve them and add more features and features that meet the needs of customers.",
+    "box-title-4": "Courses",
+    "box-4": "Unlock your potential with our comprehensive courses on [insert relevant topic]. Designed to provide practical knowledge and real-world skills, our courses offer a personalized",
+    "box-title-5": "Podcast",
+    "box-5": "Listen in and gain new insights with our thought-provoking podcast, featuring engaging discussions. Tune in for expert opinions, inspiring stories, and informative conversations",
+    
+    "Footer-title":"To provide all the services that the customer needs in the field of technology, media and marketing.",
+    "Footer-addres-tilte":"Adress",
+    "Footer-email":"Email",
+    "Footer-addres":"Iraq, Baghdad, Al-Saydiah",
+    "Footer-Phone":"Phone number",
+
+
+
+    "contact-img-title":"We will be waiting for you happily to help you with your bussiness",
+    "contact-img-des":"Team company",
+    "contact-form-title":"Get in touch",
+    "contact-form-select1":"I’m a solo creator",
+    "contact-form-select2":"We are company",
+    "contact-form-btn":"continue",
+    "contact-form-name":"Your name",
+    "contact-form-email":"Your email",
+    "contact-form-q":"How can we help ?",
+    "conatct-form-select1":"Programming services",
+    "conatct-form-select2":"Collaberation with us",
+    "conatct-form-select3":"Marketing services",
+    "conatct-form-select4":"Other",
+    "form-btn2":"Send",
+
+    "form-span":"Thanks",
+    "form-message":"for your contacting us , we Will contact you soon",
+
+
+    "soft-desc1":"Effortlessly manage your business with our powerful POS system.",
+    
+    "soft-title2":" E-commerce app",
+    "soft-desc2":" designed to enhance your online shopping experience. Our e-commerce app combines seamless interface to provide you with a hassle-free and enjoyable way to shop for your favorite products",
+    
+    "soft-title3":"Midas clinic",
+    "soft-desc3":"clinic management system that is designed to streamline operations, enhance efficiency, and optimize patient care in healthcare facilities.",
+
+    "soft-btn":"Read More",
+
+    
+    "pos-title":"Effortlessly manage your business with our powerful POS system.",
+    "pos-title-p1":"Streamlined Sales Processes",
+    "pos-desc-p1":"POS systems simplify sales transactions, making the checkout process faster and more efficient.",
+    "pos-title-p2":"Enhanced Inventory Management",
+    "pos-desc-p2":"POS systems simplify sales transactions, making the checkout process faster and more efficient.",
+    "pos-title-p3":"Customer Relationship Management (CRM)",
+    "pos-desc-p3":"allow you to build a database of customer information, including purchase history, contact details, and preferences. This enables personalized marketing campaigns, loyalty programs, and targeted promotions, fostering stronger customer relationships and repeat business.",
+
+    "app-title":"Designed to enhance your online shopping experience. Our e-commerce app combines seamless interface to provide you with a hassle-free and enjoyable way to shop for your favorite products.",
+    "app-title1":"Easy Navigation and Intuitive Interface",
+    "app-title1-2":"Secure and Convenient Checkout",
+    "app-desc1":"Our app boasts a user-friendly interface that makes browsing, searching, and navigating through various products effortless. Discover products with just a few taps and find what you're looking for in no time.",
+    "app-desc1-2":" We prioritize the security of your transactions. Our app incorporates robust security measures and encrypted payment gateways to ensure that your personal information and payment details are always protected. Enjoy a smooth and hassle-free checkout process, with multiple payment options available.",
+
+    "app-title2":"Wishlist and Saved Items",
+    "app-desc2":"Keep track of your favorite products with our wishlist and saved items feature. Simply add items to your wishlist or save them for later to easily access and purchase them when you're ready. Never lose sight of the products you love.",
+
+    "app-title3":"    Seamless Product Catalog Management",
+    "app-desc3":"    We take pride in offering a vast and well-organized product catalog. Our app allows you to easily explore different categories, filter results, and compare products to make informed purchasing decisions. With up-to-date product information and high-quality images, you can confidently choose the right products for your needs.",
+
+    "clinic-title":"We are excited to introduce our comprehensive clinic management system that is designed to streamline operations, enhance efficiency, and optimize patient care in healthcare facilities. Our clinic management software provides a range of features and functionalities to effectively manage various aspects of your clinic operations",
+    "clinic-title1":"Medical Billing and Insurance Integration",
+    "clinic-desc1":"Our clinic management system seamlessly integrates with medical billing and insurance systems. It organize billing processes, generates accurate invoices, and tracks payments. Integration with insurance systems enables streamlined claims processing, reducing administrative burden and enhancing revenue management.",
+    "clinic-title2":"Reporting and Analytics",
+    "clinic-desc2":" Our clinic management system offers robust reporting and analytics capabilities. It generates comprehensive reports on key metrics such as patient demographics, appointment statistics, revenue, and more. These insights enable data-driven decision-making, process optimization, and improved patient outcomes.",
+    "clinic-title3":"Staff and Resource Management",
+    "clinic-desc3":"Our system helps streamline staff and resource management within the clinic. It allows administrators to schedule and assign staff members, manage shifts, and track attendance. It also helps allocate resources such as medical equipment and rooms, ensuring efficient utilization and reducing downtime."
+
+
+
+   
+}
